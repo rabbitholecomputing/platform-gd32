@@ -1,6 +1,6 @@
 {
   "build": {
-    "core": "gd32",
+    "core": "gd32-rhc",
     "cpu": "cortex-m4",
     "extra_flags": "-DGD32F4 -DGD32F450 -DGD32F4xx",
     "f_cpu": "200000000L",

@@ -53,7 +53,7 @@ else:
 if get_flag_value("use_lto", False):
     env.Append(LINKFLAGS=["-flto"])
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-spl-gd32")
+FRAMEWORK_DIR = platform.get_package_dir("framework-spl-gd32-rhc")
 assert isdir(FRAMEWORK_DIR)
 
 # hardcoded -- only gd32 chips 

@@ -33,7 +33,7 @@ class Gd32Platform(PlatformBase):
         frameworks = variables.get("pioframework", [])
         if "arduino" in frameworks:
                 self.packages["toolchain-gccarmnoneeabi"]["version"] = "~1.90201.0"
-                if build_core == "gd32":
+                if build_core == "gd32-rhc":
                     self.packages["framework-arduinogd32"]["optional"] = False
         if "mbed" in frameworks:
             deprecated_boards_file = os.path.join(

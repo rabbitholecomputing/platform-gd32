@@ -1,5 +1,5 @@
 {
-  "name": "gd32",
+  "name": "gd32-rhc",
   "title": "GD GD32",
   "description": "GigaDevice GD32 MCU has many years of industry-leading design experience, as it has already launched a huge variety of 32bit general purpose microcontrollers, based on Arm Cortex-M and RISC-V cores. GigaDevice continues to empower various industry fields, providing high performance and rich in resources MCUs.",
   "homepage": "http://www.gd32mcu.com/en/product",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CommunityGD32Cores/platform-gd32"
+    "url": "https://github.com/rabbitholecomputing/platform-gd32"
   },
   "version": "1.0.0",
   "frameworks": {
@@ -28,7 +28,7 @@
       "title": "Mbed"
     },
     "spl": {
-      "package": "framework-spl-gd32",
+      "package": "framework-spl-gd32-rhc",
       "script": "builder/frameworks/spl.py",
       "description": "The GigaDevice Standard Peripheral Library provides a set of functions for handling the peripherals on the GD32 family of microcontrollers.",
       "homepage": "http://www.gd32mcu.com/en/download/",
@@ -69,11 +69,11 @@
         "~6.51506.0"
       ]
     },
-    "framework-spl-gd32": {
+    "framework-spl-gd32-rhc": {
       "type": "framework",
       "optional": true,
-      "owner": "maxgerhardt",
-      "version": "https://github.com/CommunityGD32Cores/gd32-pio-spl-package.git"
+      "owner": "Rabbit Hole Computing",
+      "version": "https://github.com/rabbitholecomputing/gd32-pio-spl-package.git"
     },
     "framework-arduinogd32": {
       "type": "framework",

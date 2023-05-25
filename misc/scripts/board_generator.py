@@ -306,7 +306,7 @@ class GD32MCUInfo:
         output_filename = f"generic{self.name_no_package}.json"
         board = {
             "build": {
-                "core": "gd32",
+                "core": "gd32-rhc",
                 "cpu": self.core_type,
                 "extra_flags": " ".join(self.compile_flags),
                 "f_cpu": str(self.speed_mhz * 1_000_000) + "L",
